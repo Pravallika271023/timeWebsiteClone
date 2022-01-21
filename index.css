@@ -1,0 +1,69 @@
+.header {
+    display:grid;
+    grid-template-columns: 40px  200px repeat(5,auto) 200px ;
+    border-bottom: 1px solid lightgray;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    color: lightgray;
+    
+}
+#menuButton{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(134, 131, 131);
+    margin: 4px 0;
+}
+.searchbutton {
+    position:absolute;
+    /* top:23%; */
+    right:5px;
+}
+
+.moduleClass{
+    background-color: lightgray;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.moduleTitle{
+    text-align: center;
+    color: #e90606;
+    padding-top: 20px;
+}
+
+#getTimeStoriesList{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    align-items: center;
+    text-align: center;
+}
+.number{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.title{
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    max-width:150px;
+    word-wrap:break-word;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title:hover {
+    color: red;
+}
+.insideIssueHeader{
+    font-style: italic;
+    text-align: center;
+    color: #e90606;
+}
+.insideIssuesMain{
+    align-items: center;
+    text-align: center;
+}
